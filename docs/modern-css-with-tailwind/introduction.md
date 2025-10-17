@@ -3,8 +3,8 @@ prev:
   text: 'Tailwind 现代 CSS 样式 (第二版)'
   link: '/modern-css-with-tailwind/'
 next:
-  text: 'Tailwind 现代 CSS 样式 (第二版)'
-  link: '/modern-css-with-tailwind/'
+  text: '第1章 Tailwind 入门'
+  link: '/modern-css-with-tailwind/ch01'
 ---
 
 # 简介
