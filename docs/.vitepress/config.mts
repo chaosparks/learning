@@ -3,7 +3,21 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Chaosparks Learning",
-  description: "A VitePress Site",
+  description: "A Place to record learning and practise",
+  head: [
+    [
+      'script',
+      { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-MYK0B2S29C' }
+    ],
+    [
+      'script',
+      {},
+      `window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-MYK0B2S29C');`
+    ]
+  ],  
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
