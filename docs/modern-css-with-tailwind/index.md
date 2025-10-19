@@ -11,10 +11,10 @@ next:
 
 ## 目录
 
-- [**前言**](preface)
-- [**简介**](introduction)
-- [第1章 Tailwind 入门](ch01)
-- [第2章 Tailwind 基础](ch02)
-- [第3章 排版](ch03)
-- [第4章 盒子（The Box）](ch04)
+- [前言](preface)
+- [简介](introduction)
+- [第 1 章 Tailwind 入门](ch01)
+- [第 2 章 Tailwind 基础](ch02)
+- [第 3 章 排版](ch03)
+- [第 4 章 盒子（The Box）](ch04)
 - [第 5 章 页面布局](ch05)
