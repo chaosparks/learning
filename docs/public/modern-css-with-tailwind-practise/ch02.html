@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style type="text/tailwindcss">
+      @theme {
+        --color-clifford: #da373d;
+      }
+      @layer components {
+          .title { @apply text-6xl font-bold }
+          .subtitle { @apply text-4xl font-semibold }
+          .subsubtitle { @apply text-lg font-medium italic }
+      }
+
+    </style>    
+</head>
+<body>
+    <h1 class="text-3xl font-bold text-blue-700">Wel come to NorthBy</h1>
+
+    <h1 class="title text-blue-600">Wel come to NorthBy</h1>
+
+    <h1 class="text-5xl">Wel come to NorthBy</h1>
+
+    <a class="hover:underline">Click Me</a>
+</body>
+</html>
