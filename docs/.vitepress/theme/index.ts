@@ -3,6 +3,7 @@ import DefaultTheme from 'vitepress/theme'
 import Layout from './Layout.vue'
 import PostList from './components/PostList.vue'
 import CategoryList from './components/CategoryList.vue'
+import Summary from './components/Summary.vue'
 import './custom.css'
 
 export default {
@@ -12,5 +13,6 @@ export default {
     // 注册全局组件
     app.component('PostList', PostList)
     app.component('CategoryList', CategoryList)
+    app.component('Summary', Summary)
   }
 }
