@@ -5,6 +5,7 @@ category: web
 tags:
   - css
   - tailwind
+breadcrumb: false
 next:
   text: '前言'
   link: '/modern-css-with-tailwind/preface'
