@@ -1,4 +1,10 @@
 ---
+title: Tailwind 现代 CSS 样式前言
+date: 2025-10-17 12:01:01
+category: web
+tags:
+  - css
+  - tailwind
 prev:
   text: 'Tailwind 现代 CSS 样式 (第二版)'
   link: '/modern-css-with-tailwind/'
@@ -7,7 +13,7 @@ next:
   link: '/modern-css-with-tailwind/introduction'
 ---
 
-# 前言
+# Tailwind 现代 CSS 样式前言
 
 本书讲解的是 Tailwind 3.0，它显著改变了 Tailwind CSS 的工作方式以及大多数开发者与它的交互方式。
 

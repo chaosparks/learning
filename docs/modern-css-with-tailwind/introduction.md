@@ -1,4 +1,10 @@
 ---
+title: Tailwind CSS 简介
+date: 2025-10-17 12:01:01
+category: web
+tags:
+  - css
+  - tailwind
 prev:
   text: 'Tailwind 现代 CSS 样式 (第二版)'
   link: '/modern-css-with-tailwind/'
@@ -7,7 +13,7 @@ next:
   link: '/modern-css-with-tailwind/ch01'
 ---
 
-# 简介
+# Tailwind CSS 简介
 
 许多网页开发者低估了 CSS。
 

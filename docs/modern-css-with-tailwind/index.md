@@ -1,4 +1,10 @@
 ---
+title: Tailwind 现代 CSS 样式 (第二版) 
+date: 2025-10-17 12:01:01
+category: web
+tags:
+  - css
+  - tailwind
 next:
   text: '前言'
   link: '/modern-css-with-tailwind/preface'

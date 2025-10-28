@@ -19,13 +19,45 @@ export default defineConfig({
     ]
   ],  
   themeConfig: {
+
+    search: {
+      provider: 'local',
+      options: {
+        translations: {
+          button: {
+            buttonText: '搜索',
+            buttonAriaLabel: '搜索文档'
+          },
+          modal: {
+            noResultsText: '无法找到相关结果',
+            resetButtonTitle: '清除查询',
+            footer: {
+              selectText: '选择',
+              navigateText: '切换',
+              closeText: '关闭'
+            }
+          }
+        }
+      }
+    },
+
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: 'Examples', link: '/markdown-examples' },
+      { text: '分类', link: '/categories' },
+      { text: '标签', link: '/tags' }
     ],
 
     sidebar: [
+      {
+        text: '导航',
+        items: [
+          { text: '首页', link: '/' },
+          { text: '分类', link: '/categories' },
+          { text: '标签', link: '/tags' }
+        ]
+      },      
       {
         text: 'Examples',
         items: [
